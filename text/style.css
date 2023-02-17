@@ -1,0 +1,133 @@
+#text:invalid {
+    color: #922525;
+    animation: invalid 0.3s 2;
+}
+
+#pass:invalid {
+    color: #922525;
+    animation: invalid 0.3s 2;
+}
+@keyframes invalid {
+    25%{
+        translate: 6px 0;
+    }
+    50%{
+        translate: -6px 0 ;
+    }
+    75%{
+        translate: 6px 0;
+    }
+}
+
+
+body{
+    background-color: gray;
+    background-image: 'https://images.hdqwalls.com/download/windows-11-4k-k5-1920x1200.jpg';
+}
+
+#text{
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    transform: translateX(20px);
+}
+a {
+    all: unset;
+}
+
+p {
+    font-family: monospace;
+    font-size: 15px;
+    transform: translateY(850px) ;
+}
+#pass{
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    transform: translateY(10px) translateX(20px) ;
+}
+
+button {
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(76, 44, 66);
+    color: black;
+    color: white;
+}
+
+.sbmt {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: black;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    transform: translateY(50px) translateX(60px);
+}
+
+.nika {
+    
+    background-color: darkslateblue;
+    width: 230px;
+    height: 180px;
+    border: 4px solid black;
+    transform: translateX(750px) translateY(300px);
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+
+.nika:hover{
+    box-shadow: 10px 5px 5px purple ,inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    transition: 1s;
+    
+}
+#signin {
+    transform: translateY(180px) translateX(-80px);
+}
+
+#signup {
+    transform: translateY(180px) translateX(-80px);
+}
+
+#sign{
+    transform: translateY(180px) translateX(-45px);
+}
+
+
+.b1 {
+        background-image: linear-gradient(90deg,purple, yellow);
+}
+
+@media (width <= 600px) {
+    .sign {
+        margin-left: 200px;
+        transform: translateY(200px) translateX(-100px);
+    }
+    .nika {
+        transform: translateX(-15px) translateY(300px);
+        margin-top: -130px;
+        margin-left: 80px;
+    }
+    #signup {
+        transform: translateX(-1px) translateY(180px);
+    }
+    p{
+        transform: translateY(500px) translateX(30px);
+    }
+    #signin {
+        transform: translateX(-1px) translateY(180px);
+    }
+    .nikaa {
+        transform: translateX(-5px) translateY(500px);
+    }
+
+}
